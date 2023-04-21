@@ -9,7 +9,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "https://nest-test-app.vercel.app/$1"
+      "dest": "dist/main.js"
     }
   ]
 }
