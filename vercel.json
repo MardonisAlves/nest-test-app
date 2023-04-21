@@ -9,7 +9,7 @@
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "http://localhost:3000/$1"
+        "dest": "https://nest-test-app.vercel.app:3000/$1"
       }
     ]
   }
