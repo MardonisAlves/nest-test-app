@@ -6,12 +6,8 @@
   },
   "builds": [
     {
-      "src": "/dist/apps/api/main.js",
+      "src": "/dist/main.js",
       "use": "@now/node"
-    },
-    {
-      "src": "/dist/apps/react-app/*",
-      "use": "@now/static"
     }
   ],
   "routes": [
