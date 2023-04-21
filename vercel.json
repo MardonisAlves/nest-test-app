@@ -9,7 +9,7 @@
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "dist/main.js"
+        "dest": "http://localhost:3000/$1"
       }
     ]
   }
